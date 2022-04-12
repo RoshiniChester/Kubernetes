@@ -1,6 +1,6 @@
 terraform {
   backend "gcs" {
-    bucket  = "state-rosh"
+    bucket  = "state-new"
     prefix  = "terraform/k8-app"
   }
 }

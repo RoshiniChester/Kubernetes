@@ -3,7 +3,7 @@ provider "kubernetes" {
 }
 
 resource "google_container_registry" "registry" {
-  project  = "focal-set-306013"
+  project  = "proj-rosh"
 }
 
 resource "kubernetes_deployment" "app" {

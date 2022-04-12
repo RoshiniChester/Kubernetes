@@ -56,7 +56,7 @@ variable "ip_range_services" {
 
 variable "compute_engine_service_account" {
   description = "Service account to associate to the nodes in the cluster"
-  default = "terraform-sa@focal-set-306013.iam.gserviceaccount.com"
+  default = "380726144455-compute@developer.gserviceaccount.com"
 }
 
 variable "use_private_endpoint" {
